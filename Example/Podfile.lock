@@ -1,0 +1,25 @@
+PODS:
+  - BinderSQL (0.1.0):
+    - SQLite.swift (~> 0.14.0)
+  - SQLite.swift (0.14.1):
+    - SQLite.swift/standard (= 0.14.1)
+  - SQLite.swift/standard (0.14.1)
+
+DEPENDENCIES:
+  - BinderSQL (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SQLite.swift
+
+EXTERNAL SOURCES:
+  BinderSQL:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BinderSQL: d57739beb1ac2b2806af34a628225f22b903ab61
+  SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
+
+PODFILE CHECKSUM: ae2273486d9b8e0d9f13d52b532555aedfff3973
+
+COCOAPODS: 1.11.3
