@@ -1,6 +1,10 @@
 # BinderSQL
 
-这是一个Swift版sqlite数据库动态绑定框架. 通过订阅绑定的方式，可以帮助我们实时绑变化的数据.
+BinderSQL是一款基于给予Swift语言开发的。建立在sqlite基础上的动态绑定数据库。
+其目标是对sqlite数据库的功能进行封装。为客户端基于数据持久层变化的数据库驱动业务业务提供对象化的开发支持。
+该数据库封装框架将具有如下特点:
+1. ORM特性
+2. 数据变化监听
 
 [![CI Status](https://img.shields.io/travis/acekiller/BinderSQL.svg?style=flat)](https://travis-ci.org/acekiller/BinderSQL)
 [![Version](https://img.shields.io/cocoapods/v/BinderSQL.svg?style=flat)](https://cocoapods.org/pods/BinderSQL)
